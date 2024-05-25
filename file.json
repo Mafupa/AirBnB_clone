@@ -1,1 +1,1 @@
-{"f{ocname}.{obj.id}": {"id": "1aa9b86e-208e-4e83-af48-1ffb7fc940d3", "created_at": "2024-05-25T18:28:35.552558", "updated_at": "2024-05-25T18:28:35.552634", "name": "My First Model", "my_number": 89, "__class__": "BaseModel"}}
+{"f{ocname}.{obj.id}": {"id": "e1f3089f-6303-4b6b-be8c-10c9f1033bb7", "created_at": "2024-05-25T18:31:59.918866", "updated_at": "2024-05-25T18:31:59.918942", "name": "My First Model", "my_number": 89, "__class__": "BaseModel"}}
