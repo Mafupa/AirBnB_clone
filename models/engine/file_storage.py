@@ -14,7 +14,7 @@ class FileStorage:
 
     def new(self, obj):
         ocname = obj.__class__.__name__
-        FileStorage.__objects["f{ocname}.{obj.id}"] = obj
+        FileStorage.__objects[f"{ocname}.{obj.id}"] = obj
 
     def save(self):
         odict = FileStorage.__objects
