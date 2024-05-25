@@ -3,9 +3,10 @@
 from uuid import uuid4
 from datetime import datetime
 
+
 class BaseModel:
     """Base Model"""
-    def __init__(self, *args, *kwargs):
+    def __init__(self, *args, **kwargs):
         """init function"""
         self.id = str(uuid4())
         self.created_at = datetime.today()
@@ -26,4 +27,4 @@ class BaseModel:
     def __str__(self):
         """representation function"""
         clname = self.__class__.__name__
-        return f"[{clname}] ({self.id}) {self.__dict}"
+        return f"[{clname}] ({self.id}) {self.__dict__}"
